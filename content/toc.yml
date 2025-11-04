@@ -4,7 +4,7 @@ toc:
   - group: API Recipes
     items:
       - page: Balance Flow
-        file: recipes/BalanceFlow.md    
+        file: recipes/BalanceFlow.md
   - generate: API Endpoints
     from: endpoints
   - generate: Callbacks

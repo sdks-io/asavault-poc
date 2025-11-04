@@ -1,10 +1,9 @@
-export default function BalanceFlow(workflowCtx, portal) {
+async function BalanceFlow(workflowCtx, portal) {
   return {
     Overview: {
-      name: "Overview",
+      name: "Inroduction",
       stepCallback: async () => {
-        return workflowCtx.showContent(`
-# Balance Flow Overview
+        return workflowCtx.showContent(`# Balance Flow Overview
 
 This recipe demonstrates how to retrieve and manage balance-related information using our API endpoints. 
 Follow these steps to understand how to:

@@ -2,6 +2,7 @@
   "$schema": "https://titan.apimatic.io/api/build/schema",
   "buildFileVersion": "1",
   "generatePortal": {
+    "tailIncludes": "<script defer src='./static/scripts/recipes/BalanceFlow.js'></script><script>document.addEventListener('DOMContentLoaded', (event) => {APIMaticDevPortal.ready(({ registerWorkflow }) => {registerWorkflow('page:recipes/BalanceFlow', 'Balance Flow', BalanceFlow);});});</script>",
     "contentFolder": "./",
     "apiSpecPath": "./spec",
     "apiSpecs": [],
@@ -210,15 +211,5 @@
       "reportPath": "./apimatic-debug/apimatic-report.html",
       "importedApiDumpPath": "./apimatic-debug/imported-api-dump.json"
     }
-  },
-  "recipes": {
-    "workflows": [
-      {
-        "name": "Balance Flow",
-        "permalink": "page:recipes/BalanceFlow",
-        "functionName": "BalanceFlow",
-        "scriptPath": "./static/scripts/recipes/BalanceFlow.js"
-      }
-    ]
   }
 }

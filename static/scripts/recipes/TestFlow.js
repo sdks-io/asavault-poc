@@ -1,0 +1,1 @@
+export default function TestFlow(workflowCtx, portal) {return {"Test": {name: "Test",stepCallback: async () => {return workflowCtx.showContent("# The Heading Goes Here\n\nThis is placeholder text for your API Recipe content step. Feel free to edit this. Save your changes and then close the file once you're done.");},}};}
