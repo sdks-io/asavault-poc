@@ -210,5 +210,15 @@
       "reportPath": "./apimatic-debug/apimatic-report.html",
       "importedApiDumpPath": "./apimatic-debug/imported-api-dump.json"
     }
+  },
+  "recipes": {
+    "workflows": [
+      {
+        "name": "Balance Flow",
+        "permalink": "page:recipes/BalanceFlow",
+        "functionName": "BalanceFlow",
+        "scriptPath": "./static/scripts/recipes/BalanceFlow.js"
+      }
+    ]
   }
 }

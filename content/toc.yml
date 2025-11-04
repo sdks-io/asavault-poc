@@ -1,13 +1,17 @@
 toc:
-- generate: Step by Step Tutorial
-  from: getting-started
-- generate: API Endpoints
-  from: endpoints
-- generate: Callbacks
-  from: callbacks
-- generate: Webhooks
-  from: webhooks
-- generate: Models
-  from: models
-- generate: SDK Infrastructure
-  from: sdk-infra
+  - generate: Step by Step Tutorial
+    from: getting-started
+  - group: API Recipes
+    items:
+      - page: Balance Flow
+        file: recipes/BalanceFlow.md    
+  - generate: API Endpoints
+    from: endpoints
+  - generate: Callbacks
+    from: callbacks
+  - generate: Webhooks
+    from: webhooks
+  - generate: Models
+    from: models
+  - generate: SDK Infrastructure
+    from: sdk-infra
