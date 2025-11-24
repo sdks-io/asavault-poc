@@ -5,6 +5,8 @@ toc:
     items:
       - page: Balance Flow
         file: recipes/BalanceFlow.md
+      - page: Subscriptions Flow
+        file: recipes/SubscriptionsFlow.md
   - generate: API Endpoints
     from: endpoints
   - generate: Callbacks

@@ -2,7 +2,7 @@
   "$schema": "https://titan.apimatic.io/api/build/schema",
   "buildFileVersion": "1",
   "generatePortal": {
-    "tailIncludes": "<script defer src='./static/scripts/recipes/BalanceFlow.js'></script><script>document.addEventListener('DOMContentLoaded', (event) => {APIMaticDevPortal.ready(({ registerWorkflow }) => {registerWorkflow('page:recipes/BalanceFlow', 'Balance Flow', BalanceFlow);});});</script>",
+    "tailIncludes": "<script defer src='./static/scripts/recipes/BalanceFlow.js'></script><script>document.addEventListener('DOMContentLoaded', (event) => {APIMaticDevPortal.ready(({ registerWorkflow }) => {registerWorkflow('page:recipes/BalanceFlow', 'Balance Flow', BalanceFlow);});});</script><script defer src='./static/scripts/recipes/SubscriptionsFlow.js'></script><script>document.addEventListener('DOMContentLoaded', (event) => {APIMaticDevPortal.ready(({ registerWorkflow }) => {registerWorkflow('page:recipes/SubscriptionsFlow', 'Subscription Flow', SubscriptionsFlow);});});</script>",
     "contentFolder": "./",
     "apiSpecPath": "./spec",
     "apiSpecs": [],
