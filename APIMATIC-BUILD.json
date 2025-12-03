@@ -24,6 +24,8 @@
       "portalStyle": "default",
       "apiKey": "xxx",
       "baseUrl": "./",
+      "initialPlatform": "cs_net_standard_lib",
+      "enableHttpVerbsForAllLangs": true,
       "enableExport": true,
       "enableAnalytics": true,
       "enableConsoleCalls": true,
