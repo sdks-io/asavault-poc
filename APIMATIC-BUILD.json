@@ -211,5 +211,10 @@
       "reportPath": "./apimatic-debug/apimatic-report.html",
       "importedApiDumpPath": "./apimatic-debug/imported-api-dump.json"
     }
+  },
+  "apiCopilotConfig": {
+    "isEnabled": true,
+    "key": "8e7f8435-c568-4792-befd-ef2c4fe3ceae",
+    "welcomeMessage": "Welcome to the ASA Developer Portal!\n\nExplore the following prompts and harness the power of the ASA APIs with API Copilot\u0027s assistance!\n\n - \u0060How can I authenticate with the ASA API?\u0060 \n - \u0060Can you help me check the networth of an account?\u0060 \n - \u0060How can I retrieve a list of available subscription plans?\u0060"
   }
 }
