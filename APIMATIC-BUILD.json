@@ -25,6 +25,8 @@
       "portalStyle": "default",
       "apiKey": "xxx",
       "baseUrl": "https://asavault-poc-apimatic.pages.dev",
+      "initialPlatform": "cs_net_standard_lib",
+      "enableHttpVerbsForAllLangs": true,
       "enableExport": true,
       "enableAnalytics": true,
       "enableConsoleCalls": true,
@@ -252,5 +254,10 @@
       "reportPath": "./apimatic-debug/apimatic-report.html",
       "importedApiDumpPath": "./apimatic-debug/imported-api-dump.json"
     }
+  },
+  "apiCopilotConfig": {
+    "isEnabled": true,
+    "key": "cbb77991-9d78-4ca7-9a08-de9b48408456",
+    "welcomeMessage": "Welcome to the ASA Developer Portal!\n\nExplore the following prompts and harness the power of the ASA APIs with API Copilot\u0027s assistance!\n\n - \u0060How can I authenticate with the ASA API?\u0060 \n - \u0060Can you help me check the networth of an account?\u0060 \n - \u0060How can I retrieve a list of available subscription plans?\u0060"
   }
 }
