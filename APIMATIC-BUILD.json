@@ -4,6 +4,7 @@
   "generatePortal": {
     "tailIncludes": "<script defer src='./static/scripts/recipes/BalanceFlow.js'></script><script>document.addEventListener('DOMContentLoaded', (event) => {APIMaticDevPortal.ready(({ registerWorkflow }) => {registerWorkflow('page:recipes/BalanceFlow', 'Balance Flow', BalanceFlow);});});</script><script defer src='./static/scripts/recipes/SubscriptionsFlow.js'></script><script>document.addEventListener('DOMContentLoaded', (event) => {APIMaticDevPortal.ready(({ registerWorkflow }) => {registerWorkflow('page:recipes/SubscriptionsFlow', 'Subscription Flow', SubscriptionsFlow);});});</script>",
     "contentFolder": "./",
+    "baseUrl": "https://asavault-poc-apimatic.pages.dev",
     "apiSpecPath": "./spec",
     "apiSpecs": [],
     "apiMergeSettings": {
@@ -23,7 +24,7 @@
       "container": "apimatic-widget",
       "portalStyle": "default",
       "apiKey": "xxx",
-      "baseUrl": "./",
+      "baseUrl": "https://asavault-poc-apimatic.pages.dev",
       "enableExport": true,
       "enableAnalytics": true,
       "enableConsoleCalls": true,
@@ -31,35 +32,75 @@
       "languageSettings": {
         "http_curl_v1": {
           "sdkDownloadLink": "",
-          "disableSdkDownload": false
+          "disableSdkDownload": false,
+          "aiIntegration": {
+            "cursor": {
+              "isEnabled": true
+            }
+          }
         },
         "cs_net_standard_lib": {
           "sdkDownloadLink": "",
-          "disableSdkDownload": false
+          "disableSdkDownload": false,
+          "aiIntegration": {
+            "cursor": {
+              "isEnabled": true
+            }
+          }
         },
         "java_eclipse_jre_lib": {
           "sdkDownloadLink": "",
-          "disableSdkDownload": false
+          "disableSdkDownload": false,
+          "aiIntegration": {
+            "cursor": {
+              "isEnabled": true
+            }
+          }
         },
         "php_generic_lib_v2": {
           "sdkDownloadLink": "",
-          "disableSdkDownload": false
+          "disableSdkDownload": false,
+          "aiIntegration": {
+            "cursor": {
+              "isEnabled": true
+            }
+          }
         },
         "python_generic_lib": {
           "sdkDownloadLink": "",
-          "disableSdkDownload": false
+          "disableSdkDownload": false,
+          "aiIntegration": {
+            "cursor": {
+              "isEnabled": true
+            }
+          }
         },
         "ruby_generic_lib": {
           "sdkDownloadLink": "",
-          "disableSdkDownload": false
+          "disableSdkDownload": false,
+          "aiIntegration": {
+            "cursor": {
+              "isEnabled": true
+            }
+          }
         },
         "ts_generic_lib": {
           "sdkDownloadLink": "",
-          "disableSdkDownload": false
+          "disableSdkDownload": false,
+          "aiIntegration": {
+            "cursor": {
+              "isEnabled": true
+            }
+          }
         },
         "go_generic_lib": {
           "sdkDownloadLink": "",
-          "disableSdkDownload": false
+          "disableSdkDownload": false,
+          "aiIntegration": {
+            "cursor": {
+              "isEnabled": true
+            }
+          }
         }
       },
       "allowedExportFormats": [
